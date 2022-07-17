@@ -7,6 +7,7 @@ namespace MOB.HololiveMember.Master
     /// <summary>
     ///     ホロライブメンバーマスタ
     /// </summary>
+    [CreateAssetMenu(order = 1, fileName = "HololiveMemberMaster", menuName = "MOB/HololiveMemberMaster")]
     public sealed class HololiveMemberMaster : MasterBase
     {
         // 名称
