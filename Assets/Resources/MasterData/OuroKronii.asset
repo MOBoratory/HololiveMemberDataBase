@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 52
   _characterName: "\u30AA\u30FC\u30ED\u30FB\u30AF\u30ED\u30CB\u30FC"
-  _nickName: "\u305D\u3089\u3061\u3083\u3093"
-  _fanName: "\u305D\u3089\u3068\u3082"
-  _birthDay: 5/15
-  _debutDate: 9/7
+  _nickName: '-'
+  _fanName: '-'
+  _birthDay: '-'
+  _debutDate: '-'
   _languages: 0
   _generation: 0
-  _description: 
+  _description: '-'
