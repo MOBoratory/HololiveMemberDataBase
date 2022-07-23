@@ -18,7 +18,7 @@ namespace MOB.HololiveMember.Enums
         Gen4 = 4,
         Gen5 = 5,
         Gen6 = 6,
-
+        // ゲーマーズ
         Gamers = 7
     }
 }
