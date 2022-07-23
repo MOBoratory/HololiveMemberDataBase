@@ -1,4 +1,4 @@
-namespace MOB.HololiveMember.Enums
+namespace MOB.HololiveMember.Master
 {
     /// <summary>言語</summary>
     public enum Languages

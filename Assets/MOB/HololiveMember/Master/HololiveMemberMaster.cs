@@ -1,5 +1,4 @@
 using System;
-using MOB.HololiveMember.Enums;
 using MOB.ScriptableMasterSystem;
 using UnityEngine;
 
