@@ -24,8 +24,8 @@ namespace MOB.ScriptableMasterSystem
         {
             var masterDirectoryPath = $"{MasterRootDirectoryPath}{typeof(T).Name}";
             var masters = Resources.LoadAll<MasterBase>(masterDirectoryPath)
-                .Select(x => (T)x);
-            MasterCachesByType[typeof(T)] = masters.ToDictionary(x => x.Id, x => (MasterBase)x);
+                .Select(x => (T) x);
+            MasterCachesByType[typeof(T)] = masters.ToDictionary(x => x.Id, x => (MasterBase) x);
         }
 
         /// <summary>
@@ -44,7 +44,7 @@ namespace MOB.ScriptableMasterSystem
             }
 
             var masterById = MasterCachesByType[typeof(T)];
-            if (masterById.TryGetValue(id, out var master)) return (T)master;
+            if (masterById.TryGetValue(id, out var master)) return (T) master;
 
             return default;
         }

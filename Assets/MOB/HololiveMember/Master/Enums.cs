@@ -18,6 +18,7 @@ namespace MOB.HololiveMember.Master
         Gen4 = 4,
         Gen5 = 5,
         Gen6 = 6,
+
         // ゲーマーズ
         Gamers = 7
     }
