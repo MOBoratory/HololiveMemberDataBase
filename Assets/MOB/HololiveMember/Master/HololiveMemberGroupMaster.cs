@@ -8,7 +8,7 @@ namespace MOB.HololiveMember.Master
     ///     ホロライブメンバーグループマスタ
     /// </summary>
     [CreateAssetMenu(order = 1, fileName = "HololiveMemberGroupMaster", menuName = "MOB/HololiveMemberGroupMaster")]
-    public sealed class HololiveMemberGroupMaster : MasterBase
+    public sealed partial class HololiveMemberGroupMaster : MasterBase
     {
         [SerializeField] private string _groupName;
         [SerializeField] private string _description;
@@ -23,15 +23,5 @@ namespace MOB.HololiveMember.Master
 
         /// <summary>所属メンバー</summary>
         public IReadOnlyList<HololiveMemberMaster> MemberMasters => _memberMasters;
-
-        /// <summary>
-        ///     IDでマスタを取得
-        /// </summary>
-        /// <param name="id">HololiveMemberGroupMaster.ID</param>
-        /// <returns>MasterInstance</returns>
-        public static HololiveMemberGroupMaster GetById(int id)
-        {
-            return GetById<HololiveMemberGroupMaster>(id);
-        }
     }
 }
