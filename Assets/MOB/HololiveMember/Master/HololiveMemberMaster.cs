@@ -33,10 +33,24 @@ namespace MOB.HololiveMember.Master
         public string FanName => _fanName;
 
         /// <summary>誕生日</summary>
-        public DateTime BirthDay => DateTime.Parse(_birthDay);
+        public DateTime BirthDay
+        {
+            get
+            {
+                DateTime.TryParse(_birthDay, out var result);
+                return result;
+            }
+        }
 
         /// <summary>デビュー日付</summary>
-        public DateTime DebutDate => DateTime.Parse(_debutDate);
+        public DateTime DebutDate
+        {
+            get
+            {
+                DateTime.TryParse(_debutDate, out var result);
+                return result;
+            }
+        }
 
         /// <summary>言語</summary>
         public Languages Languages => _languages;
