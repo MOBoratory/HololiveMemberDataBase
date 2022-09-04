@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using MOB.ScriptableMasterSystem;
 using UnityEngine;
 
@@ -37,7 +38,11 @@ namespace MOB.HololiveMember.Master
         {
             get
             {
-                DateTime.TryParse(_birthDay, out var result);
+                DateTime.TryParseExact(_birthDay,
+                    "MM/dd",
+                    CultureInfo.CurrentCulture,
+                    DateTimeStyles.None,
+                    out var result);
                 return result;
             }
         }
@@ -47,7 +52,11 @@ namespace MOB.HololiveMember.Master
         {
             get
             {
-                DateTime.TryParse(_debutDate, out var result);
+                DateTime.TryParseExact(_debutDate,
+                    "yyyy/MM/dd",
+                    CultureInfo.CurrentCulture,
+                    DateTimeStyles.None,
+                    out var result);
                 return result;
             }
         }
