@@ -16,8 +16,8 @@ MonoBehaviour:
   _characterName: "\u591C\u7A7A\u30E1\u30EB"
   _nickName: '-'
   _fanName: '-'
-  _birthDay: '-'
-  _debutDate: '-'
+  _birthDay: 10/31
+  _debutDate: 2018/5/13
   _languages: 0
-  _generation: 0
+  _generation: 1
   _description: '-'

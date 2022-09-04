@@ -16,8 +16,8 @@ MonoBehaviour:
   _characterName: IRyS
   _nickName: '-'
   _fanName: '-'
-  _birthDay: '-'
-  _debutDate: '-'
+  _birthDay: 3/7
+  _debutDate: 2021/7/11
   _languages: 1
   _generation: 0
   _description: '-'
