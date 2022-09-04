@@ -52,5 +52,7 @@ namespace MOB.HololiveMember.Master
 
         /// <summary>言語</summary>
         public Languages Languages => _languages;
+
+        public Generations Generations => _generation;
     }
 }
