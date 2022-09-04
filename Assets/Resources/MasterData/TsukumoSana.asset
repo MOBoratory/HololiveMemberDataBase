@@ -18,6 +18,6 @@ MonoBehaviour:
   _fanName: '-'
   _birthDay: '-'
   _debutDate: '-'
-  _languages: 0
+  _languages: 1
   _generation: 0
   _description: '-'
