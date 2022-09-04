@@ -17,7 +17,9 @@ namespace MOB.HololiveMember
         Gen3 = 3,
         Gen4 = 4,
         Gen5 = 5,
-        Gen6 = 6,
+
+        // HoloX
+        HoloX = 6,
 
         // ゲーマーズ
         Gamers = 7
