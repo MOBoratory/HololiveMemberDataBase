@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Linq;
+
 namespace MOB.HololiveMember.Master
 {
     /// <summary>
@@ -13,6 +16,16 @@ namespace MOB.HololiveMember.Master
         public static HololiveMemberMaster GetById(int id)
         {
             return GetById<HololiveMemberMaster>(id);
+        }
+
+        public static IEnumerable<HololiveMemberMaster> GetList()
+        {
+            return GetList<HololiveMemberMaster>();
+        }
+
+        public static IEnumerable<HololiveMemberMaster> GetListByGenerations(Generations generations)
+        {
+            return GetList().Where(x => x.Generations == generations);
         }
     }
 }
