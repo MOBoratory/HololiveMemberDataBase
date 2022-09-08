@@ -55,4 +55,12 @@ namespace MOB.HololiveMember.Master
 
         public Generations Generations => _generation;
     }
+
+    public static class HololiveMemberMasterExtensions
+    {
+        public static string ToJson(this HololiveMemberMaster self)
+        {
+            return string.Empty;
+        }
+    }
 }
